@@ -9,12 +9,12 @@
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-
-
   </head>
   <body>
+    <!-- header part -->
     <header class="header">
       <a href="#" class="logo">Mamata.</a>
+      <!-- navbar -->
       <nav class="navbar">
         <a href="#" class="active">Home</a>
         <a href="#">About</a>
@@ -25,8 +25,12 @@
     </header>
     <section class="home">
       <div class="home-content">
-        <h1>Hi, I'm Mamata Majhi</h1>
-        <h3>Full Stack Developer</h3>
+        <!-- introduction part -->
+        <h1>Hi, I'm <span>Mamata Majhi</span></h1>
+        <div class="text-animate">
+          <h3>Full Stack Developer</h3>
+        </div>
+        <!-- paragraph part -->
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
           pariatur odit placeat, ducimus exercitationem expedita repudiandae
@@ -34,14 +38,63 @@
           eveniet totam obcaecati dolorem.
         </p>
         <div class="btn-box">
-            <a href="#">Hire Me</a>
-            <a href="#">Let's Talk</a>
+          <a href="#">Hire Me</a>
+          <a href="#">Let's Talk</a>
         </div>
       </div>
+      <!-- facebook linkdin instagram icon -->
       <div class="home-sci">
-        <a href="#"><box-icon type='logo' color="#00abf0" name='facebook'></box-icon></a>
-        <a href="#"><box-icon type='logo' color="#00abf0" name='twitter'></box-icon></a>
-        <a href="#"><box-icon type='logo' color="#00abf0" name='linkedin'></box-icon></a>
+        <a href="#"
+          ><box-icon type="logo" color="#00abf0" name="facebook"></box-icon
+        ></a>
+        <a href="#"
+          ><box-icon type="logo" color="#00abf0" name="twitter"></box-icon
+        ></a>
+        <a href="#"
+          ><box-icon type="logo" color="#00abf0" name="linkedin"></box-icon
+        ></a>
+      </div>
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <div class="about-img">
+        <img src="./../images/aboutsectionprofile.jpg" alt="profile picture" />
+        <span class="circle-spin"></span>
+      </div>
+
+      <div class="about-content">
+        <h3>Full Stack Developer</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
+          corporis natus? Accusamus, deleniti itaque placeat, atque voluptas
+          reprehenderit sit nisi dolore quo accusantium et! Esse magni possimus
+          itaque officiis cupiditate perspiciatis aut, ut eligendi impedit
+          molestias? Quod totam similique officia, voluptas optio tempore sequi
+          blanditiis veritatis omnis commodi possimus! Labore.
+        </p>
+        <div class="btn-box btns">
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- education section design -->
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Journey</span></h2>
+      <div class="education-row">
+        <div class="education-column">
+          <h3 class="title">Eduacation</h3>
+          <div class="education-box"></div>
+          <div class="education-content">
+            <div class="year"><box-icon type='solid' name='calendar'></box-icon>2017-2018</div>
+            <h3>Master Degree-University</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Inventore ipsa cumque consectetur doloremque est excepturi velit
+              recusandae eum, obcaecati provident!
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   </body>
